@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Inscrição </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
+  <!-- Link para o arquivo CSS da Foundation -->
+</head>
+<style>
+
+    .texto {
+
+        text-align: center;
+        width: 1300px;
+        height: 100px;
+        color: purple;
+    }
+
+</style>
+<body>
+
+<form>
+
+    <div class="texto">
+        <h1>Formulário de Cadastro</h1>
+        <form action="submit" method="post">
+        </form>
+    </div>
+
+    <div class="container">
+  
+  
+        <div class="row">
+            <div class="small-12 medium-6 large-4 columns"></div>
+
+                <label for="nome"> Digite seu nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="matricula"> Digite sua matrícula:</label>
+                <input type="text" id="matricula" name="matricula" required><br><br>
+
+            </div>
+            <div class="small-12 medium-6 large-4 columns">
+                        
+                <label for="senha"> Cadastre uma senha: </label>
+                <input type="password" id="senha" name="senha" required><br><br>
+
+                <label for="trabalho"> Digite o título do seu trabalho: </label>
+                <input type="text" id="trabalho" name="trabalho" required><br><br>
+            
+            </div>
+            <div class="small-12 medium-6 large-4 columns">
+                     
+
+                <label for="participantes"> Digite o nome de um participante do seu grupo: </label>
+                <input type="text" id="participantes" name="participantes" required><br><br>
+
+                <label for="participantes2"> Digite o nome de um participante do seu grupo: </label>
+                <input type="text" id="participantes2" name="participantes2" required><br><br>
+            </div>
+
+                <a href="login.html"> Entrar </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</form>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/what-input/dist/what-input.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"></script>
+  <!-- Scripts necessários para a Foundation (jQuery e What-Input) -->
+  <script>
+    $(document).foundation();
+    // Inicializa a Foundation
+  </script>
+
+</body>
+</html>
